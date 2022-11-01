@@ -8,7 +8,7 @@ import employee from "../../Assets/Projects/employee.png"
 import movement from "../../Assets/Projects/movement.png"
 import shop from "../../Assets/Projects/shop.png"
 import shoe from "../../Assets/Projects/shoe.png"
-import blog from "../../Assets/Projects/blog.png"
+import notes from "../../Assets/Projects/notes.png"
 
 function Projects() {
   return (
@@ -44,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={notes}
               isBlog={false}
               title="DipNotes"
               description="An app that helps teachers to provide resources for academics.The application was made using ReactJS and Flutter for both web and mobile."
