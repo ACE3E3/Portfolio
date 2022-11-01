@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="Employee Management System"
               description="Employee Management System using angular and springboot"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/ACE3E3/employee-management"
             />
           </Col>
 
@@ -45,9 +45,8 @@ function Projects() {
             <ProjectCard
               imgPath={calc}
               isBlog={false}
-              title="Calculator"
-              description="A Simple Calculator made using ReactJS to perform all mathematical operations.(Not Scientific)"
-              ghLink="https://github.com/soumyajit4419/Editor.io"    
+              title="DipNotes"
+              description="An app that helps teachers to provide resources for academics.The application was made using ReactJS and Flutter for both web and mobile."
             />
           </Col>
 
@@ -78,6 +77,16 @@ function Projects() {
               title="Human Motion Detection"
               description="An AI model to detect human movement using image and video recognition."
               ghLink="https://github.com/ACE3E3/Human-Motion-Detection-UsingTensorflow"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calc}
+              isBlog={false}
+              title="Calculator"
+              description="A Simple Calculator made using ReactJS to perform all mathematical operations.(Not Scientific)"
+              ghLink="https://github.com/ACE3E3/Test"    
             />
           </Col>
         </Row>
